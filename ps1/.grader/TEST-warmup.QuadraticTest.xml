@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="7" failures="0" hostname="HP" name="warmup.QuadraticTest" skipped="0" tests="8" time="1.75" timestamp="2018-06-09T11:02:55">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="netbeans.user" value="C:\Users\HPuser\AppData\Roaming\NetBeans\8.1" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="user.country.format" value="NL" />
+    <property name="sun.desktop" value="windows" />
+    <property name="final.grading" value="true" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Program Files\NetBeans 8.1\extide\ant" />
+    <property name="java.runtime.version" value="1.7.0_79-b15" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\HPuser\AppData\Roaming\NetBeans" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="user.name" value="HPuser" />
+    <property name="user.language.format" value="nl" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="javac.fork" value="yes" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin" />
+    <property name="grader.report.file" value="my-grader-report.xml" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="java.version" value="1.7.0_79" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|HP" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="netbeans.productversion" value="NetBeans IDE 8.1 (Build 201510222201)" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="GB" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre" />
+    <property name="netbeans.buildnumber" value="201510222201" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="ant.file" value="C:\Users\HPuser\Google Drive\Study courses\Software Science\Software construction in Java\ps1\grader.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GROOVY_JAVA_JC_MOB_PHP_WEBCOMMON_WEBEE0bac1e439-242b-4931-acc5-7072cd2fdb16_a8d817e1-f206-428d-8b0e-8f644617beb9" />
+    <property name="final.grader.jar" value="ps1-final-grader.jar" />
+    <property name="netbeans.autoupdate.country" value="GB" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|HP" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.79-b02" />
+    <property name="user.variant" value="" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 8.1\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans 8.1\platform\core\core-base.jar;C:\Program Files\NetBeans 8.1\platform\core\core.jar;C:\Program Files\NetBeans 8.1\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans 8.1\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans 8.1\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core-base_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core-base_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core-base_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core-base_zh_CN.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 8.1\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb_ru.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="jna.boot.library.name" value="jnidispatch-410" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="user.script" value="" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="user.home" value="C:\Users\HPuser" />
+    <property name="netbeans.home" value="C:\Program Files\NetBeans 8.1\platform" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="which.tests.ran" value="BETA + FINAL" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;c:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\FPC\2.6.4\bin\i386-Win32;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Micr;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\gs\gs9.20\lib;C:\Program Files\gs\gs9.20\bin;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php7.0.10;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Brackets\command;c:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Users\HPuser\.dnx\bin;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\HPuser\AppData\Local\Microsoft\WindowsApps;C:\Users\HPuser\AppData\Roaming\Composer\vendor\bin;C:\Users\HPuser\AppData\Local\atom\bin;C:\Users\HPuser\AppData\Roaming\npm;C:\Users\HPuser\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_171\bin;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner warmup.QuadraticTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\HPuser\Google Drive\Study courses\Software Science\Software construction in Java\ps1\.grader\TEST-warmup.QuadraticTest.xml crashfile=C:\Users\HPuser\Google Drive\Study courses\Software Science\Software construction in Java\ps1\.grader\junitvmwatcher1550906777919815672.properties propsfile=C:\Users\HPuser\Google Drive\Study courses\Software Science\Software construction in Java\ps1\.grader\junit3406281186322611155.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="java.class.path" value="C:\Users\HPuser\Google Drive\Study courses\Software Science\Software construction in Java\ps1\lib\junit-4.12.jar;C:\Users\HPuser\Google Drive\Study courses\Software Science\Software construction in Java\ps1\lib\hamcrest-core-1.3.jar;C:\Users\HPuser\Google Drive\Study courses\Software Science\Software construction in Java\ps1\.grader\bin-student;C:\Program Files\NetBeans 8.1\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.1\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.1\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.1\extide\ant\lib\ant-junit4.jar" />
+    <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
+    <property name="project.name" value="ps1-warmup" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.7.0_79" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="java.io.tmpdir" value="C:\Users\HPuser\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="netbeans.dirs" value="C:\Program Files\NetBeans 8.1\nb;C:\Program Files\NetBeans 8.1\ergonomics;C:\Program Files\NetBeans 8.1\ide;C:\Program Files\NetBeans 8.1\extide;C:\Program Files\NetBeans 8.1\java;C:\Program Files\NetBeans 8.1\apisupport;C:\Program Files\NetBeans 8.1\webcommon;C:\Program Files\NetBeans 8.1\websvccommon;C:\Program Files\NetBeans 8.1\enterprise;C:\Program Files\NetBeans 8.1\mobility;C:\Program Files\NetBeans 8.1\profiler;C:\Program Files\NetBeans 8.1\python;C:\Program Files\NetBeans 8.1\php;C:\Program Files\NetBeans 8.1\identity;C:\Program Files\NetBeans 8.1\harness;C:\Program Files\NetBeans 8.1\cnd;C:\Program Files\NetBeans 8.1\cndext;C:\Program Files\NetBeans 8.1\dlight;C:\Program Files\NetBeans 8.1\groovy;C:\Program Files\NetBeans 8.1\extra;C:\Program Files\NetBeans 8.1\javacard;C:\Program Files\NetBeans 8.1\javafx" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="user.dir" value="C:\Program Files\NetBeans 8.1" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="zipfile" value="my-submission.zip" />
+    <property name="problem.set" value="ps1" />
+    <property name="basedir" value="C:\Users\HPuser\Google Drive\Study courses\Software Science\Software construction in Java\ps1" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="ant.core.lib" value="C:\Program Files\NetBeans 8.1\extide\ant\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="grader.dir" value=".grader" />
+    <property name="ant.project.invoked-targets" value="all" />
+  </properties>
+  <testcase classname="warmup.QuadraticTest" name="testOneRoot" time="0.197">
+    <error message="warmup/Quadratic : Unsupported major.minor version 52.0" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: warmup/Quadratic : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at warmup.QuadraticTest.testOneRoot(QuadraticTest.java:65)
+</error>
+  </testcase>
+  <testcase classname="warmup.QuadraticTest" name="testAssertionsEnabled" time="0.0" />
+  <testcase classname="warmup.QuadraticTest" name="testOneZeroRoot" time="0.0">
+    <error message="warmup/Quadratic" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: warmup/Quadratic
+	at warmup.QuadraticTest.testOneZeroRoot(QuadraticTest.java:59)
+</error>
+  </testcase>
+  <testcase classname="warmup.QuadraticTest" name="testPositiveRoots" time="0.0">
+    <error message="warmup/Quadratic" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: warmup/Quadratic
+	at warmup.QuadraticTest.testPositiveRoots(QuadraticTest.java:41)
+</error>
+  </testcase>
+  <testcase classname="warmup.QuadraticTest" name="testBothZeroRoots" time="0.0">
+    <error message="warmup/Quadratic" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: warmup/Quadratic
+	at warmup.QuadraticTest.testBothZeroRoots(QuadraticTest.java:71)
+</error>
+  </testcase>
+  <testcase classname="warmup.QuadraticTest" name="testOppositeSignRoots" time="0.0">
+    <error message="warmup/Quadratic" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: warmup/Quadratic
+	at warmup.QuadraticTest.testOppositeSignRoots(QuadraticTest.java:53)
+</error>
+  </testcase>
+  <testcase classname="warmup.QuadraticTest" name="testNegativeRoots" time="0.0">
+    <error message="warmup/Quadratic" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: warmup/Quadratic
+	at warmup.QuadraticTest.testNegativeRoots(QuadraticTest.java:47)
+</error>
+  </testcase>
+  <testcase classname="warmup.QuadraticTest" name="testLargeRoots" time="0.0">
+    <error message="warmup/Quadratic" type="java.lang.UnsupportedClassVersionError">java.lang.UnsupportedClassVersionError: warmup/Quadratic
+	at warmup.QuadraticTest.testLargeRoots(QuadraticTest.java:79)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
